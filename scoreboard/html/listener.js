@@ -2,7 +2,7 @@ $(function() {
     window.addEventListener('message', function(event) {
         var item = event.data;
         var buf = $('#wrap');
-        buf.find('table').append("<h1 class=\"heading\">California State Roleplay</h1><img class='image' src='https://cdn.pixabay.com/photo/2017/03/17/05/20/info-2150938_640.png'><p id='website'>www.crp.news</p><p id='discord'>discord.gg/EStMZhR/p>");
+        buf.find('table').append("<h1 class=\"heading\">California State Roleplay</h1><img class='image' src='https://cdn.pixabay.com/photo/2017/03/17/05/20/info-2150938_640.png'><p id='website'>www.crp.news</p><p id='discord'>discord.gg/EStMZhR</p>");
         if (item.meta && item.meta == 'close') {
             document.getElementById("ptbl").innerHTML = "";
             $('#wrap').hide();
